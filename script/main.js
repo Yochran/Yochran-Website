@@ -16,12 +16,12 @@ function loadPage() {
     const loading = document.getElementById("loading");
 
     setTimeout(() => {
-        loading.style.opacity = "0%";
-    }, 250);
+        loading.style.top = "-125%";
+    }, 500);
 
     setTimeout(() => {
-        mainContent.style.opacity = "100%";
-    }, 500);
+        mainContent.style.top = "33.5%";
+    }, 1000);
 }
 
 function loadInfo() {
@@ -52,7 +52,7 @@ function loadMain() {
 }
 
 function loadLinks() {
-    linksContent.style.top = "60%";
+    linksContent.style.top = "75%";
     infoContent.style.top = "5%";
 
     linksLoaded = true;
